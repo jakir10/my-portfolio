@@ -14,10 +14,10 @@ p{
 .heading-one{
     color: deepskyblue;
 }
-.flexibale-container{
+.section-container{
     display: flex;
     margin-top: 100px;
-}
+    margin-bottom: 150px;}
 .top-sec{
     width: 50%;
     padding-left: 10%;
@@ -30,7 +30,7 @@ p{
     background-image: linear-gradient(violet, skyblue );
     color: cornsilk;
     font-weight: 700;
-    border-radius: 7%;
+    border-radius: 5px;
     padding: 10px 15px;
 }
 
@@ -45,14 +45,67 @@ p{
     text-align: center;
     font-size: 40px;
 }
+.mission-section{
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .mission-item{
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 40px gray;
+    width: 35%;    
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 5px 5px -15px gray;
     border-radius: 10%;
-    padding: 20px;
+    padding: 2%;
 }
 .mission-item img{
-    width: 45%;
+    width: 100px;
 }
+#item-one{
+    background-color: lightskyblue;
+}
+#item-two{
+    background-color:burlywood ;
+}
+#item-three{
+    background-color:pink ;
+}
+.develop-section{
+    margin-top: -5%;
+}
+.develop-section img{
+    width: 350px;
+}
+.dev-left img{
+    height: 100%;
+    width: 110%;
+    margin-right: 0%;
+}
+.dev-right{
+    width: 80%;
+    margin-right: 15%;
+    margin-left: -2%;
+    margin-top: 5%;
+}
+.dev-right h1{
+    margin: 0%;
+    font-size: 30px;
+}
+
+
+footer{
+    background-color: black;
+}
+footer h1{
+    padding-top: 50px;
+    text-align: center;
+    color:whitesmoke
+
+    
+}
+footer h5{
+    text-align: center;
+    color:gray;
+    padding-bottom: 5%;
+    
+}
+   
