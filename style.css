@@ -2,19 +2,19 @@ body{
     font-family: 'Noto Serif', serif;
     margin: 0;
 }
-h1{
+.heading-top{
     font-size: 50px;
     padding-left: 10px;
-    border-left: 3px solid #551a77;    
+    border-left: 3px solid #551a77;   
 }
 p{
     padding-bottom: 15px;
     margin-top: 5%;    
 }
-.mission{
+.heading-one{
     color: deepskyblue;
 }
-section{
+.flexibale-container{
     display: flex;
     margin-top: 100px;
 }
@@ -32,4 +32,27 @@ section{
     font-weight: 700;
     border-radius: 7%;
     padding: 10px 15px;
+}
+
+.my-mission{
+    margin: 5%;
+}
+.second-sec{
+    width: 100%;
+}
+.second-sec-heading{
+    
+    text-align: center;
+    font-size: 40px;
+}
+.mission-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10%;
+    padding: 20px;
+}
+.mission-item img{
+    width: 45%;
 }
